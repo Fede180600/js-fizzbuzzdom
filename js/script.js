@@ -12,8 +12,16 @@ for (let i = 0; i <= 100; i++) {
     } if (i % 15 === 0) {
         myMultiple = "FizzBuzz";
     }
+
     
+
     console.log(i, myMultiple);
 
 }
 
+// 2. Stampo i numeri nella pagina all'interno del box
+const containerWrapper = document.querySelector('.container');
+
+for (let i = 0; i <= 100; i++) {
+containerWrapper.innerHTML += `<div class="box">${i}</div> ` 
+}
