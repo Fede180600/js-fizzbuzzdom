@@ -36,10 +36,14 @@ h1 {
     margin-right: 10px;
 }
 
-.fizz {
+.Fizz {
     background-color: #0bd6a1;
 }
 
-.buzz {
+.Buzz {
     background-color: #ffd166;
+}
+
+.FizzBuzz {
+    background-color: #f0466f;
 }
